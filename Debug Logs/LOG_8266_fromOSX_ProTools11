@@ -1,0 +1,307 @@
+Getting IP address........
+IP address is 192.168.1.15
+Starting Session DonFeather on port 5004
+Incoming buffer of 20 bytes. These will be appended to the protocolBuffer
+FF FF 49 4E 0 0 0 2 46 E8 7C CD 93 16 66 8E 6F 74 66 0 
+Protocol buffer contains 20 bytes. Content:
+FF FF 49 4E 0 0 0 2 46 E8 7C CD 93 16 66 8E 6F 74 66 0 
+> (OnControlInvitation) Control Invitation: peer = "otf" ,ssrc 0x9316668E ,initiatorToken = 0x46E87CCD
+Invition received for a new session.
+New Local Session in slot 0 with SSRC 9316668E
+< (OnControlInvitation) Control InvitationAccepted: peer = "DonFeather" ,ssrc 0xF0FC00B5 ,initiatorToken = 0x46E87CCD
+Purging left 20 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 20 bytes. These will be appended to the protocolBuffer
+FF FF 49 4E 0 0 0 2 46 E8 7C CD 93 16 66 8E 6F 74 66 0 
+Protocol buffer contains 20 bytes. Content:
+FF FF 49 4E 0 0 0 2 46 E8 7C CD 93 16 66 8E 6F 74 66 0 
+> (OnControlInvitation) Control Invitation: peer = "otf" ,ssrc 0x9316668E ,initiatorToken = 0x46E87CCD
+Session exists
+< (OnControlInvitation) Control InvitationAccepted: peer = "DonFeather" ,ssrc 0xF0FC00B5 ,initiatorToken = 0x46E87CCD
+Purging left 20 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 20 bytes. These will be appended to the protocolBuffer
+FF FF 49 4E 0 0 0 2 46 E8 7C CD 93 16 66 8E 6F 74 66 0 
+Protocol buffer contains 20 bytes. Content:
+FF FF 49 4E 0 0 0 2 46 E8 7C CD 93 16 66 8E 6F 74 66 0 
+> Content Invitation: peer = "otf" ,ssrc 0x9316668E
+< Content InvitationAccepted: peer = "DonFeather" ,ssrc 0xF0FC00B5
+Connected to session otf
+Purging left 20 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 93 16 66 8E 0 0 0 0 0 0 0 0 1 1B 70 D9 95 7F 0 0 2 0 0 0 95 7F 0 0 0 20 5A 4 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 93 16 66 8E 0 0 0 0 0 0 0 0 1 1B 70 D9 95 7F 0 0 2 0 0 0 95 7F 0 0 0 20 5A 4 
+> Syncronization for ssrc 0x9316668E, count = 0
+< Syncronization for ssrc 0xF0FC00B5, count = 1
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 93 16 66 8E 2 4 FF 3F 5D 56 20 40 0 0 0 0 1 1B 70 D9 0 0 0 0 0 0 0 0 1 1B 72 B6 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 93 16 66 8E 2 4 FF 3F 5D 56 20 40 0 0 0 0 1 1B 70 D9 0 0 0 0 0 0 0 0 1 1B 72 B6 
+> Syncronization for ssrc 0x9316668E, count = 2
+< Syncronization for ssrc 0xF0FC00B5, count = 0
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 93 16 66 8E 1 4 FF 3F 5D 56 20 40 0 0 0 0 0 0 0 0 1 1B 74 7 0 0 0 0 0 0 0 0 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 93 16 66 8E 1 4 FF 3F 5D 56 20 40 0 0 0 0 0 0 0 0 1 1B 74 7 0 0 0 0 0 0 0 0 
+> Syncronization for ssrc 0x9316668E, count = 1
+< Syncronization for ssrc 0xF0FC00B5, count = 2
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 93 16 66 8E 0 F2 B4 3E 0 0 0 0 1 1B 75 8C FF 7F 0 0 20 0 0 0 30 0 0 0 20 1F 32 0 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 93 16 66 8E 0 F2 B4 3E 0 0 0 0 1 1B 75 8C FF 7F 0 0 20 0 0 0 30 0 0 0 20 1F 32 0 
+> Syncronization for ssrc 0x9316668E, count = 0
+< Syncronization for ssrc 0xF0FC00B5, count = 1
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 93 16 66 8E 2 4 FF 3F 5D 56 20 40 0 0 0 0 1 1B 75 8C 0 0 0 0 0 0 0 0 1 1B 77 25 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 93 16 66 8E 2 4 FF 3F 5D 56 20 40 0 0 0 0 1 1B 75 8C 0 0 0 0 0 0 0 0 1 1B 77 25 
+> Syncronization for ssrc 0x9316668E, count = 2
+< Syncronization for ssrc 0xF0FC00B5, count = 0
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 93 16 66 8E 1 4 FF 3F 5D 56 20 40 0 0 0 0 0 0 0 0 1 1B 78 C5 0 0 0 0 0 0 0 0 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 93 16 66 8E 1 4 FF 3F 5D 56 20 40 0 0 0 0 0 0 0 0 1 1B 78 C5 0 0 0 0 0 0 0 0 
+> Syncronization for ssrc 0x9316668E, count = 1
+< Syncronization for ssrc 0xF0FC00B5, count = 2
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 93 16 66 8E 0 F2 B4 3E 0 0 0 0 1 1B 7A 7E FF 7F 0 0 20 0 0 0 30 0 0 0 20 1F 32 0 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 93 16 66 8E 0 F2 B4 3E 0 0 0 0 1 1B 7A 7E FF 7F 0 0 20 0 0 0 30 0 0 0 20 1F 32 0 
+> Syncronization for ssrc 0x9316668E, count = 0
+< Syncronization for ssrc 0xF0FC00B5, count = 1
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 93 16 66 8E 2 4 FF 3F 5D 56 20 40 0 0 0 0 1 1B 7A 7E 0 0 0 0 0 0 0 0 1 1B 7B BD 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 93 16 66 8E 2 4 FF 3F 5D 56 20 40 0 0 0 0 1 1B 7A 7E 0 0 0 0 0 0 0 0 1 1B 7B BD 
+> Syncronization for ssrc 0x9316668E, count = 2
+< Syncronization for ssrc 0xF0FC00B5, count = 0
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 93 16 66 8E 1 4 FF 3F 5D 56 20 40 0 0 0 0 0 0 0 0 1 1B 7D 48 0 0 0 0 0 0 0 0 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 93 16 66 8E 1 4 FF 3F 5D 56 20 40 0 0 0 0 0 0 0 0 1 1B 7D 48 0 0 0 0 0 0 0 0 
+> Syncronization for ssrc 0x9316668E, count = 1
+< Syncronization for ssrc 0xF0FC00B5, count = 2
+Purging left 36 bytes. New _protocolBufferIndex: 0
+pm open,type:2 0
+Incoming buffer of 70 bytes. These will be appended to the protocolBuffer
+80 61 6C 23 1 1B CE 21 93 16 66 8E 80 38 F1 2 54 F1 10 53 F1 20 53 F1 30 54 F1 40 53 F1 50 53 F1 60 54 F1 76 53 F1 4 53 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 6 53 F1 10 53 F1 20 
+Protocol buffer contains 70 bytes. Content:
+80 61 6C 23 1 1B CE 21 93 16 66 8E 80 38 F1 2 54 F1 10 53 F1 20 53 F1 30 54 F1 40 53 F1 50 53 F1 60 54 F1 76 53 F1 4 53 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 6 53 F1 10 53 F1 20 
+> TimeCodeQuarterFrame (c=2)
+OnMidiReceiveTimeCodeQuarterFrame: 02
+> TimeCodeQuarterFrame (c=16)
+OnMidiReceiveTimeCodeQuarterFrame: 10
+> TimeCodeQuarterFrame (c=32)
+OnMidiReceiveTimeCodeQuarterFrame: 20
+> TimeCodeQuarterFrame (c=48)
+OnMidiReceiveTimeCodeQuarterFrame: 30
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+> TimeCodeQuarterFrame (c=80)
+OnMidiReceiveTimeCodeQuarterFrame: 50
+> TimeCodeQuarterFrame (c=96)
+OnMidiReceiveTimeCodeQuarterFrame: 60
+> TimeCodeQuarterFrame (c=118)
+OnMidiReceiveTimeCodeQuarterFrame: 76
+> TimeCodeQuarterFrame (c=4)
+OnMidiReceiveTimeCodeQuarterFrame: 04
+> TimeCodeQuarterFrame (c=16)
+OnMidiReceiveTimeCodeQuarterFrame: 10
+> TimeCodeQuarterFrame (c=32)
+OnMidiReceiveTimeCodeQuarterFrame: 20
+> TimeCodeQuarterFrame (c=48)
+OnMidiReceiveTimeCodeQuarterFrame: 30
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+> TimeCodeQuarterFrame (c=80)
+OnMidiReceiveTimeCodeQuarterFrame: 50
+> TimeCodeQuarterFrame (c=96)
+OnMidiReceiveTimeCodeQuarterFrame: 60
+> TimeCodeQuarterFrame (c=118)
+OnMidiReceiveTimeCodeQuarterFrame: 76
+> TimeCodeQuarterFrame (c=6)
+OnMidiReceiveTimeCodeQuarterFrame: 06
+> TimeCodeQuarterFrame (c=16)
+OnMidiReceiveTimeCodeQuarterFrame: 10
+> TimeCodeQuarterFrame (c=32)
+OnMidiReceiveTimeCodeQuarterFrame: 20
+Purging left 70 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 24 1 1B D4 51 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 8 40 6C 23 8 B 62 60 0 0 4 60 0 0 0 
+Protocol buffer contains 45 bytes. Content:
+80 61 6C 24 1 1B D4 51 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 8 40 6C 23 8 B 62 60 0 0 4 60 0 0 0 
+> TimeCodeQuarterFrame (c=48)
+OnMidiReceiveTimeCodeQuarterFrame: 30
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+> TimeCodeQuarterFrame (c=80)
+OnMidiReceiveTimeCodeQuarterFrame: 50
+> TimeCodeQuarterFrame (c=96)
+OnMidiReceiveTimeCodeQuarterFrame: 60
+> TimeCodeQuarterFrame (c=118)
+OnMidiReceiveTimeCodeQuarterFrame: 76
+> TimeCodeQuarterFrame (c=8)
+OnMidiReceiveTimeCodeQuarterFrame: 08
+ReportedBoundsError 3Purging left 34 bytes. New _protocolBufferIndex: 11
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 25 1 1B D6 44 93 16 66 8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 
+Protocol buffer contains 56 bytes. Content:
+8 B 62 60 0 0 4 60 0 0 0 80 61 6C 25 1 1B D6 44 93 16 66 8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 54
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 26 1 1B D8 38 93 16 66 8E C0 11 F1 76 53 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 6 80 0 0 0 
+Protocol buffer contains 99 bytes. Content:
+62 60 0 0 4 60 0 0 0 80 61 6C 25 1 1B D6 44 93 16 66 8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 80 61 6C 26 1 1B D8 38 93 16 66 8E C0 11 F1 76 53 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 6 80 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 97
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 
+Protocol buffer contains 142 bytes. Content:
+0 0 4 60 0 0 0 80 61 6C 25 1 1B D6 44 93 16 66 8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 80 61 6C 26 1 1B D8 38 93 16 66 8E C0 11 F1 76 53 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 140
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 
+Protocol buffer contains 185 bytes. Content:
+4 60 0 0 0 80 61 6C 25 1 1B D6 44 93 16 66 8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 80 61 6C 26 1 1B D8 38 93 16 66 8E C0 11 F1 76 53 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 183
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 
+Protocol buffer contains 228 bytes. Content:
+0 0 0 80 61 6C 25 1 1B D6 44 93 16 66 8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 80 61 6C 26 1 1B D8 38 93 16 66 8E C0 11 F1 76 53 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 226
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 
+Protocol buffer contains 271 bytes. Content:
+0 80 61 6C 25 1 1B D6 44 93 16 66 8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 80 61 6C 26 1 1B D8 38 93 16 66 8E C0 11 F1 76 53 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 269
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 
+Protocol buffer contains 314 bytes. Content:
+61 6C 25 1 1B D6 44 93 16 66 8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 80 61 6C 26 1 1B D8 38 93 16 66 8E C0 11 F1 76 53 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 312
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 
+Protocol buffer contains 357 bytes. Content:
+25 1 1B D6 44 93 16 66 8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 80 61 6C 26 1 1B D8 38 93 16 66 8E C0 11 F1 76 53 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 355
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 2E 1 1B E7 D8 93 16 66 8E C0 11 F1 76 54 F1 6 53 F1 11 53 F1 20 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 12 41 0 0 0 
+Protocol buffer contains 400 bytes. Content:
+1B D6 44 93 16 66 8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 80 61 6C 26 1 1B D8 38 93 16 66 8E C0 11 F1 76 53 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 80 61 6C 2E 1 1B E7 D8 93 16 66 8E C0 11 F1 76 54 F1 6 53 F1 11 53 F1 20 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 12 41 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 398
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 30 1 1B EB C0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 A 40 6C 23 8 B 62 60 0 0 16 81 0 0 0 
+Protocol buffer contains 443 bytes. Content:
+44 93 16 66 8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 80 61 6C 26 1 1B D8 38 93 16 66 8E C0 11 F1 76 53 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 80 61 6C 2E 1 1B E7 D8 93 16 66 8E C0 11 F1 76 54 F1 6 53 F1 11 53 F1 20 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 12 41 0 0 0 80 61 6C 30 1 1B EB C0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 A 40 6C 23 8 B 62 60 0 0 16 81 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 441
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 32 1 1B EF A8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 18 A1 0 0 0 
+Protocol buffer contains 486 bytes. Content:
+16 66 8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 80 61 6C 26 1 1B D8 38 93 16 66 8E C0 11 F1 76 53 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 80 61 6C 2E 1 1B E7 D8 93 16 66 8E C0 11 F1 76 54 F1 6 53 F1 11 53 F1 20 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 12 41 0 0 0 80 61 6C 30 1 1B EB C0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 A 40 6C 23 8 B 62 60 0 0 16 81 0 0 0 80 61 6C 32 1 1B EF A8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 18 A1 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 484
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 36 1 1B F7 78 93 16 66 8E C0 11 F1 76 54 F1 4 53 F1 10 53 F1 21 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 0 20 10 0 0 
+Protocol buffer contains 529 bytes. Content:
+8E C0 11 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 6 80 0 0 0 80 61 6C 26 1 1B D8 38 93 16 66 8E C0 11 F1 76 53 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 80 61 6C 2E 1 1B E7 D8 93 16 66 8E C0 11 F1 76 54 F1 6 53 F1 11 53 F1 20 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 12 41 0 0 0 80 61 6C 30 1 1B EB C0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 A 40 6C 23 8 B 62 60 0 0 16 81 0 0 0 80 61 6C 32 1 1B EF A8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 18 A1 0 0 0 80 61 6C 36 1 1B F7 78 93 16 66 8E C0 11 F1 76 54 F1 4 53 F1 10 53 F1 21 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 0 20 10 0 0 
+ReportedBoundsError 2Purging left 69 bytes. New _protocolBufferIndex: 460
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 37 1 1B F9 6D 93 16 66 8E C0 11 F1 50 53 F1 60 54 F1 76 53 F1 6 53 F1 10 54 F1 21 40 6C 23 8 B 64 60 0 1 2 40 10 0 0 
+Protocol buffer contains 505 bytes. Content:
+B 66 60 0 0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 80 61 6C 2E 1 1B E7 D8 93 16 66 8E C0 11 F1 76 54 F1 6 53 F1 11 53 F1 20 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 12 41 0 0 0 80 61 6C 30 1 1B EB C0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 A 40 6C 23 8 B 62 60 0 0 16 81 0 0 0 80 61 6C 32 1 1B EF A8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 18 A1 0 0 0 80 61 6C 36 1 1B F7 78 93 16 66 8E C0 11 F1 76 54 F1 4 53 F1 10 53 F1 21 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 0 20 10 0 0 80 61 6C 37 1 1B F9 6D 93 16 66 8E C0 11 F1 50 53 F1 60 54 F1 76 53 F1 6 53 F1 10 54 F1 21 40 6C 23 8 B 64 60 0 1 2 40 10 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 503
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 38 1 1B FB 61 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 8 40 6C 23 8 B 62 60 0 1 4 60 10 0 0 
+Protocol buffer contains 548 bytes. Content:
+60 0 0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 80 61 6C 2E 1 1B E7 D8 93 16 66 8E C0 11 F1 76 54 F1 6 53 F1 11 53 F1 20 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 12 41 0 0 0 80 61 6C 30 1 1B EB C0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 A 40 6C 23 8 B 62 60 0 0 16 81 0 0 0 80 61 6C 32 1 1B EF A8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 18 A1 0 0 0 80 61 6C 36 1 1B F7 78 93 16 66 8E C0 11 F1 76 54 F1 4 53 F1 10 53 F1 21 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 0 20 10 0 0 80 61 6C 37 1 1B F9 6D 93 16 66 8E C0 11 F1 50 53 F1 60 54 F1 76 53 F1 6 53 F1 10 54 F1 21 40 6C 23 8 B 64 60 0 1 2 40 10 0 0 80 61 6C 38 1 1B FB 61 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 8 40 6C 23 8 B 62 60 0 1 4 60 10 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 546
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 3C 1 1C 3 30 93 16 66 8E C0 11 F1 30 54 F1 40 53 F1 50 53 F1 60 54 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 1 A C0 10 0 0 
+Protocol buffer contains 591 bytes. Content:
+0 6 80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 80 61 6C 2E 1 1B E7 D8 93 16 66 8E C0 11 F1 76 54 F1 6 53 F1 11 53 F1 20 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 12 41 0 0 0 80 61 6C 30 1 1B EB C0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 A 40 6C 23 8 B 62 60 0 0 16 81 0 0 0 80 61 6C 32 1 1B EF A8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 18 A1 0 0 0 80 61 6C 36 1 1B F7 78 93 16 66 8E C0 11 F1 76 54 F1 4 53 F1 10 53 F1 21 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 0 20 10 0 0 80 61 6C 37 1 1B F9 6D 93 16 66 8E C0 11 F1 50 53 F1 60 54 F1 76 53 F1 6 53 F1 10 54 F1 21 40 6C 23 8 B 64 60 0 1 2 40 10 0 0 80 61 6C 38 1 1B FB 61 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 8 40 6C 23 8 B 62 60 0 1 4 60 10 0 0 80 61 6C 3C 1 1C 3 30 93 16 66 8E C0 11 F1 30 54 F1 40 53 F1 50 53 F1 60 54 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 1 A C0 10 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 589
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 45 1 1C 14 C4 93 16 66 8E C0 11 F1 11 53 F1 21 53 F1 30 54 F1 40 53 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 1 18 A0 0 0 0 
+Protocol buffer contains 634 bytes. Content:
+80 0 0 0 80 61 6C 27 1 1B DA 2C 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 80 61 6C 2E 1 1B E7 D8 93 16 66 8E C0 11 F1 76 54 F1 6 53 F1 11 53 F1 20 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 12 41 0 0 0 80 61 6C 30 1 1B EB C0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 A 40 6C 23 8 B 62 60 0 0 16 81 0 0 0 80 61 6C 32 1 1B EF A8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 18 A1 0 0 0 80 61 6C 36 1 1B F7 78 93 16 66 8E C0 11 F1 76 54 F1 4 53 F1 10 53 F1 21 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 0 20 10 0 0 80 61 6C 37 1 1B F9 6D 93 16 66 8E C0 11 F1 50 53 F1 60 54 F1 76 53 F1 6 53 F1 10 54 F1 21 40 6C 23 8 B 64 60 0 1 2 40 10 0 0 80 61 6C 38 1 1B FB 61 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 8 40 6C 23 8 B 62 60 0 1 4 60 10 0 0 80 61 6C 3C 1 1C 3 30 93 16 66 8E C0 11 F1 30 54 F1 40 53 F1 50 53 F1 60 54 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 1 A C0 10 0 0 80 61 6C 45 1 1C 14 C4 93 16 66 8E C0 11 F1 11 53 F1 21 53 F1 30 54 F1 40 53 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 1 18 A0 0 0 0 
+ReportedBoundsError 2Purging left 14 bytes. New _protocolBufferIndex: 620
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 46 1 1C 16 B8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 21 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 18 A1 10 0 0 
+Protocol buffer contains 665 bytes. Content:
+66 8E C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 80 61 6C 2E 1 1B E7 D8 93 16 66 8E C0 11 F1 76 54 F1 6 53 F1 11 53 F1 20 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 12 41 0 0 0 80 61 6C 30 1 1B EB C0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 A 40 6C 23 8 B 62 60 0 0 16 81 0 0 0 80 61 6C 32 1 1B EF A8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 18 A1 0 0 0 80 61 6C 36 1 1B F7 78 93 16 66 8E C0 11 F1 76 54 F1 4 53 F1 10 53 F1 21 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 0 20 10 0 0 80 61 6C 37 1 1B F9 6D 93 16 66 8E C0 11 F1 50 53 F1 60 54 F1 76 53 F1 6 53 F1 10 54 F1 21 40 6C 23 8 B 64 60 0 1 2 40 10 0 0 80 61 6C 38 1 1B FB 61 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 8 40 6C 23 8 B 62 60 0 1 4 60 10 0 0 80 61 6C 3C 1 1C 3 30 93 16 66 8E C0 11 F1 30 54 F1 40 53 F1 50 53 F1 60 54 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 1 A C0 10 0 0 80 61 6C 45 1 1C 14 C4 93 16 66 8E C0 11 F1 11 53 F1 21 53 F1 30 54 F1 40 53 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 1 18 A0 0 0 0 80 61 6C 46 1 1C 16 B8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 21 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 18 A1 10 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 663
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 47 1 1C 18 AC 93 16 66 8E C0 11 F1 50 53 F1 60 54 F1 76 53 F1 0 53 F1 10 54 F1 22 40 6C 23 8 B 64 60 0 1 1A C1 10 0 0 
+Protocol buffer contains 708 bytes. Content:
+C0 11 F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 80 61 6C 2E 1 1B E7 D8 93 16 66 8E C0 11 F1 76 54 F1 6 53 F1 11 53 F1 20 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 12 41 0 0 0 80 61 6C 30 1 1B EB C0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 A 40 6C 23 8 B 62 60 0 0 16 81 0 0 0 80 61 6C 32 1 1B EF A8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 18 A1 0 0 0 80 61 6C 36 1 1B F7 78 93 16 66 8E C0 11 F1 76 54 F1 4 53 F1 10 53 F1 21 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 0 20 10 0 0 80 61 6C 37 1 1B F9 6D 93 16 66 8E C0 11 F1 50 53 F1 60 54 F1 76 53 F1 6 53 F1 10 54 F1 21 40 6C 23 8 B 64 60 0 1 2 40 10 0 0 80 61 6C 38 1 1B FB 61 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 8 40 6C 23 8 B 62 60 0 1 4 60 10 0 0 80 61 6C 3C 1 1C 3 30 93 16 66 8E C0 11 F1 30 54 F1 40 53 F1 50 53 F1 60 54 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 1 A C0 10 0 0 80 61 6C 45 1 1C 14 C4 93 16 66 8E C0 11 F1 11 53 F1 21 53 F1 30 54 F1 40 53 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 1 18 A0 0 0 0 80 61 6C 46 1 1C 16 B8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 21 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 18 A1 10 0 0 80 61 6C 47 1 1C 18 AC 93 16 66 8E C0 11 F1 50 53 F1 60 54 F1 76 53 F1 0 53 F1 10 54 F1 22 40 6C 23 8 B 64 60 0 1 1A C1 10 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 706
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 49 1 1C 1C 94 93 16 66 8E C0 11 F1 10 53 F1 22 53 F1 30 54 F1 40 53 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 2 0 20 0 0 0 
+Protocol buffer contains 751 bytes. Content:
+F1 50 53 F1 60 53 F1 76 53 F1 C 54 F1 10 53 F1 20 40 6C 23 8 B 64 60 0 0 8 A0 0 0 0 80 61 6C 28 1 1B DC 20 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 0 A C0 0 0 0 80 61 6C 2A 1 1B E0 8 93 16 66 8E C0 11 F1 76 53 F1 0 54 F1 11 53 F1 20 53 F1 30 54 F1 40 40 6C 23 8 B 66 60 0 0 C E0 0 0 0 80 61 6C 2B 1 1B E1 FC 93 16 66 8E C0 11 F1 50 53 F1 60 53 F1 76 54 F1 2 53 F1 11 53 F1 20 40 6C 23 8 B 64 60 0 0 E 1 0 0 0 80 61 6C 2C 1 1B E3 F0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 0 10 21 0 0 0 80 61 6C 2D 1 1B E5 E4 93 16 66 8E C0 11 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 0 12 40 0 0 0 80 61 6C 2E 1 1B E7 D8 93 16 66 8E C0 11 F1 76 54 F1 6 53 F1 11 53 F1 20 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 12 41 0 0 0 80 61 6C 30 1 1B EB C0 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 A 40 6C 23 8 B 62 60 0 0 16 81 0 0 0 80 61 6C 32 1 1B EF A8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 20 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 0 18 A1 0 0 0 80 61 6C 36 1 1B F7 78 93 16 66 8E C0 11 F1 76 54 F1 4 53 F1 10 53 F1 21 54 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 0 20 10 0 0 80 61 6C 37 1 1B F9 6D 93 16 66 8E C0 11 F1 50 53 F1 60 54 F1 76 53 F1 6 53 F1 10 54 F1 21 40 6C 23 8 B 64 60 0 1 2 40 10 0 0 80 61 6C 38 1 1B FB 61 93 16 66 8E C0 11 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 8 40 6C 23 8 B 62 60 0 1 4 60 10 0 0 80 61 6C 3C 1 1C 3 30 93 16 66 8E C0 11 F1 30 54 F1 40 53 F1 50 53 F1 60 54 F1 76 53 F1 E 40 6C 23 8 B 62 60 0 1 A C0 10 0 0 80 61 6C 45 1 1C 14 C4 93 16 66 8E C0 11 F1 11 53 F1 21 53 F1 30 54 F1 40 53 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 1 18 A0 0 0 0 80 61 6C 46 1 1C 16 B8 93 16 66 8E C0 11 F1 76 53 F1 C 53 F1 11 54 F1 21 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 1 18 A1 10 0 0 80 61 6C 47 1 1C 18 AC 93 16 66 8E C0 11 F1 50 53 F1 60 54 F1 76 53 F1 0 53 F1 10 54 F1 22 40 6C 23 8 B 64 60 0 1 1A C1 10 0 0 80 61 6C 49 1 1C 1C 94 93 16 66 8E C0 11 F1 10 53 F1 22 53 F1 30 54 F1 40 53 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 2 0 20 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 749
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 4A 1 1C 1E 89 93 16 66 8E C0 11 F1 76 53 F1 4 53 F1 10 54 F1 22 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 2 0 20 20 0 0 
+Not enough memory in protocolBuffer, clearing existing parser buffer.
+reset
+Protocol buffer contains 45 bytes. Content:
+80 61 6C 4A 1 1C 1E 89 93 16 66 8E C0 11 F1 76 53 F1 4 53 F1 10 54 F1 22 53 F1 30 53 F1 40 40 6C 23 8 B 66 60 0 2 0 20 20 0 0 
+> TimeCodeQuarterFrame (c=118)
+OnMidiReceiveTimeCodeQuarterFrame: 76
+> TimeCodeQuarterFrame (c=4)
+OnMidiReceiveTimeCodeQuarterFrame: 04
+> TimeCodeQuarterFrame (c=16)
+OnMidiReceiveTimeCodeQuarterFrame: 10
+> TimeCodeQuarterFrame (c=34)
+OnMidiReceiveTimeCodeQuarterFrame: 22
+> TimeCodeQuarterFrame (c=48)
+OnMidiReceiveTimeCodeQuarterFrame: 30
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+ReportedBoundsError 3Purging left 34 bytes. New _protocolBufferIndex: 11
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 54 1 1C 32 11 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 2 10 21 20 0 0 
+Protocol buffer contains 56 bytes. Content:
+8 B 66 60 0 2 0 20 20 0 0 80 61 6C 54 1 1C 32 11 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 2 10 21 20 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 54
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 6C 55 1 1C 34 4 93 16 66 8E C0 11 F1 11 54 F1 22 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 2 12 40 0 0 0 
+Protocol buffer contains 99 bytes. Content:
+66 60 0 2 0 20 20 0 0 80 61 6C 54 1 1C 32 11 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 2 10 21 20 0 0 80 61 6C 55 1 1C 34 4 93 16 66 8E C0 11 F1 11 54 F1 22 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 2 12 40 0 0 0 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 97
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 93 16 66 8E 0 FF FF FF 0 0 0 0 1 1D 8 7D 60 A3 3 0 0 1E 66 5B FF 7F 0 0 75 91 D 95 
+Protocol buffer contains 133 bytes. Content:
+0 2 0 20 20 0 0 80 61 6C 54 1 1C 32 11 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 2 10 21 20 0 0 80 61 6C 55 1 1C 34 4 93 16 66 8E C0 11 F1 11 54 F1 22 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 2 12 40 0 0 0 FF FF 43 4B 93 16 66 8E 0 FF FF FF 0 0 0 0 1 1D 8 7D 60 A3 3 0 0 1E 66 5B FF 7F 0 0 75 91 D 95 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 131
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 93 16 66 8E 0 FF FF FF 0 0 0 0 1 1E 92 6 60 A3 3 0 0 1E 66 5B FF 7F 0 0 75 91 D 95 
+Protocol buffer contains 167 bytes. Content:
+0 20 20 0 0 80 61 6C 54 1 1C 32 11 93 16 66 8E C0 11 F1 30 53 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 4 40 6C 23 8 B 62 60 0 2 10 21 20 0 0 80 61 6C 55 1 1C 34 4 93 16 66 8E C0 11 F1 11 54 F1 22 53 F1 30 53 F1 40 54 F1 50 53 F1 60 40 6C 23 8 B 60 60 0 2 12 40 0 0 0 FF FF 43 4B 93 16 66 8E 0 FF FF FF 0 0 0 0 1 1D 8 7D 60 A3 3 0 0 1E 66 5B FF 7F 0 0 75 91 D 95 FF FF 43 4B 93 16 66 8E 0 FF FF FF 0 0 0 0 1 1E 92 6 60 A3 3 0 0 1E 66 5B FF 7F 0 0 75 91 D 95 
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 165
