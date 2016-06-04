@@ -2670,7 +2670,9 @@ Serial.println("decode_sysex_start");
 		//}
 
 		// TODO: what to do here???
+		rtpMidi->OnSystemExclusive(NULL, packetBuffer, cmd_len);
 		Serial.println("decode_sysex_start");
+
 
 		return consumed;
 

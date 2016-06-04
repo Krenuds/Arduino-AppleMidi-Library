@@ -941,6 +941,19 @@ void AppleMidi_Class<UdpClass>::OnTuneRequest(void* sender)
 		mTuneRequestCallback();
 }
 
+
+template<class UdpClass>
+void AppleMidi_Class<UdpClass>::OnSystemExclusive(void* sender, unsigned char* buffer, DataByte value)
+{
+#if (APPLEMIDI_DEBUG)
+	Serial.print("> System Exclusive ()");
+#endif
+
+	if (mSystemExclusiveCallback)
+		mSystemExclusiveCallback(buffer, value);
+}
+
+
 //------------------------------------------------------------------------------
 
 /*! \brief Find a free session slot.
