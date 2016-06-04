@@ -1,0 +1,408 @@
+Log from Adafruit Feather HUZZAH ESP8266 connected WiFi -> Windows 10 -> rtpMidi -> Pro Tools 11 -> MTC
+
+Begin Midi Time Code Log
+
+Getting IP address........
+IP address is 192.168.1.15
+Starting Session DonFeather on port 5004
+pm open,type:2 0
+Incoming buffer of 29 bytes. These will be appended to the protocolBuffer
+FF FF 49 4E 0 0 0 2 4D 6E 75 6E 3A D2 6C 81 44 6F 6E 74 65 68 66 72 69 6E 67 65 0 
+Protocol buffer contains 29 bytes. Content:
+FF FF 49 4E 0 0 0 2 4D 6E 75 6E 3A D2 6C 81 44 6F 6E 74 65 68 66 72 69 6E 67 65 0 
+> (OnControlInvitation) Control Invitation: peer = "Dontehfringe" ,ssrc 0x3AD26C81 ,initiatorToken = 0x4D6E756E
+Invition received for a new session.
+New Local Session in slot 0 with SSRC 3AD26C81
+< (OnControlInvitation) Control InvitationAccepted: peer = "DonFeather" ,ssrc 0xBD48542D ,initiatorToken = 0x4D6E756E
+Purging left 29 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 29 bytes. These will be appended to the protocolBuffer
+FF FF 49 4E 0 0 0 2 4D 6E 75 6E 3A D2 6C 81 44 6F 6E 74 65 68 66 72 69 6E 67 65 0 
+Protocol buffer contains 29 bytes. Content:
+FF FF 49 4E 0 0 0 2 4D 6E 75 6E 3A D2 6C 81 44 6F 6E 74 65 68 66 72 69 6E 67 65 0 
+> Content Invitation: peer = "Dontehfringe" ,ssrc 0x3AD26C81
+< Content InvitationAccepted: peer = "DonFeather" ,ssrc 0xBD48542D
+Connected to session Dontehfringe
+Purging left 29 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 3A D2 6C 81 0 0 0 0 0 0 0 0 0 2A CC 3D 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 3A D2 6C 81 0 0 0 0 0 0 0 0 0 2A CC 3D 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+> Syncronization for ssrc 0x3AD26C81, count = 0
+< Syncronization for ssrc 0xBD48542D, count = 1
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 3A D2 6C 81 2 0 0 0 5D 56 20 40 0 0 0 0 0 2A CC 3D 0 0 0 0 0 0 0 0 0 2A CD 79 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 3A D2 6C 81 2 0 0 0 5D 56 20 40 0 0 0 0 0 2A CC 3D 0 0 0 0 0 0 0 0 0 2A CD 79 
+> Syncronization for ssrc 0x3AD26C81, count = 2
+< Syncronization for ssrc 0xBD48542D, count = 0
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 3A D2 6C 81 1 0 0 0 5D 56 20 40 0 0 0 0 0 0 0 0 0 2A CE FE 0 0 0 0 0 0 0 0 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 3A D2 6C 81 1 0 0 0 5D 56 20 40 0 0 0 0 0 0 0 0 0 2A CE FE 0 0 0 0 0 0 0 0 
+> Syncronization for ssrc 0x3AD26C81, count = 1
+< Syncronization for ssrc 0xBD48542D, count = 2
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 3A D2 6C 81 0 0 0 0 0 0 0 0 0 2B 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 3A D2 6C 81 0 0 0 0 0 0 0 0 0 2B 7 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+> Syncronization for ssrc 0x3AD26C81, count = 0
+< Syncronization for ssrc 0xBD48542D, count = 1
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 3A D2 6C 81 2 0 0 0 5D 56 20 40 0 0 0 0 0 2B 7 0 0 0 0 0 0 0 0 0 0 2B D 2B 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 3A D2 6C 81 2 0 0 0 5D 56 20 40 0 0 0 0 0 2B 7 0 0 0 0 0 0 0 0 0 0 2B D 2B 
+> Syncronization for ssrc 0x3AD26C81, count = 2
+< Syncronization for ssrc 0xBD48542D, count = 0
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B 3A D2 6C 81 1 0 0 0 5D 56 20 40 0 0 0 0 0 0 0 0 0 2B E B7 0 0 0 0 0 0 0 0 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B 3A D2 6C 81 1 0 0 0 5D 56 20 40 0 0 0 0 0 0 0 0 0 2B E B7 0 0 0 0 0 0 0 0 
+> Syncronization for ssrc 0x3AD26C81, count = 1
+< Syncronization for ssrc 0xBD48542D, count = 2
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 C 0 2B F 9B 3A D2 6C 81 2 F1 2 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 C 0 2B F 9B 3A D2 6C 81 2 F1 2 
+> TimeCodeQuarterFrame (c=2)
+OnMidiReceiveTimeCodeQuarterFrame: 02
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 D 0 2B F EB 3A D2 6C 81 2 F1 10 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 D 0 2B F EB 3A D2 6C 81 2 F1 10 
+> TimeCodeQuarterFrame (c=16)
+OnMidiReceiveTimeCodeQuarterFrame: 10
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 E 0 2B 10 3D 3A D2 6C 81 2 F1 20 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 E 0 2B 10 3D 3A D2 6C 81 2 F1 20 
+> TimeCodeQuarterFrame (c=32)
+OnMidiReceiveTimeCodeQuarterFrame: 20
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 F 0 2B 10 93 3A D2 6C 81 2 F1 30 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 F 0 2B 10 93 3A D2 6C 81 2 F1 30 
+> TimeCodeQuarterFrame (c=48)
+OnMidiReceiveTimeCodeQuarterFrame: 30
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 10 0 2B 10 E2 3A D2 6C 81 2 F1 40 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 10 0 2B 10 E2 3A D2 6C 81 2 F1 40 
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 11 0 2B 11 32 3A D2 6C 81 2 F1 50 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 11 0 2B 11 32 3A D2 6C 81 2 F1 50 
+> TimeCodeQuarterFrame (c=80)
+OnMidiReceiveTimeCodeQuarterFrame: 50
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 13 0 2B 11 DC 3A D2 6C 81 2 F1 76 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 13 0 2B 11 DC 3A D2 6C 81 2 F1 76 
+> TimeCodeQuarterFrame (c=118)
+OnMidiReceiveTimeCodeQuarterFrame: 76
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 15 0 2B 12 83 3A D2 6C 81 2 F1 10 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 15 0 2B 12 83 3A D2 6C 81 2 F1 10 
+> TimeCodeQuarterFrame (c=16)
+OnMidiReceiveTimeCodeQuarterFrame: 10
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 18 0 2B 13 7B 3A D2 6C 81 2 F1 40 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 18 0 2B 13 7B 3A D2 6C 81 2 F1 40 
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 1A 0 2B 14 25 3A D2 6C 81 2 F1 60 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 1A 0 2B 14 25 3A D2 6C 81 2 F1 60 
+> TimeCodeQuarterFrame (c=96)
+OnMidiReceiveTimeCodeQuarterFrame: 60
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 1B 0 2B 14 75 3A D2 6C 81 2 F1 76 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 1B 0 2B 14 75 3A D2 6C 81 2 F1 76 
+> TimeCodeQuarterFrame (c=118)
+OnMidiReceiveTimeCodeQuarterFrame: 76
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 1E 0 2B 15 6A 3A D2 6C 81 2 F1 20 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 1E 0 2B 15 6A 3A D2 6C 81 2 F1 20 
+> TimeCodeQuarterFrame (c=32)
+OnMidiReceiveTimeCodeQuarterFrame: 20
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 20 0 2B 16 14 3A D2 6C 81 2 F1 40 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 20 0 2B 16 14 3A D2 6C 81 2 F1 40 
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 21 0 2B 16 65 3A D2 6C 81 2 F1 50 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 21 0 2B 16 65 3A D2 6C 81 2 F1 50 
+> TimeCodeQuarterFrame (c=80)
+OnMidiReceiveTimeCodeQuarterFrame: 50
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 23 0 2B 17 A 3A D2 6C 81 2 F1 76 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 23 0 2B 17 A 3A D2 6C 81 2 F1 76 
+> TimeCodeQuarterFrame (c=118)
+OnMidiReceiveTimeCodeQuarterFrame: 76
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 26 0 2B 18 4 3A D2 6C 81 2 F1 20 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 26 0 2B 18 4 3A D2 6C 81 2 F1 20 
+> TimeCodeQuarterFrame (c=32)
+OnMidiReceiveTimeCodeQuarterFrame: 20
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 28 0 2B 18 AD 3A D2 6C 81 2 F1 40 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 28 0 2B 18 AD 3A D2 6C 81 2 F1 40 
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 29 0 2B 19 2 3A D2 6C 81 2 F1 50 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 29 0 2B 19 2 3A D2 6C 81 2 F1 50 
+> TimeCodeQuarterFrame (c=80)
+OnMidiReceiveTimeCodeQuarterFrame: 50
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 2B 0 2B 19 AC 3A D2 6C 81 2 F1 76 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 2B 0 2B 19 AC 3A D2 6C 81 2 F1 76 
+> TimeCodeQuarterFrame (c=118)
+OnMidiReceiveTimeCodeQuarterFrame: 76
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 2D 0 2B 1A 51 3A D2 6C 81 2 F1 10 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 2D 0 2B 1A 51 3A D2 6C 81 2 F1 10 
+> TimeCodeQuarterFrame (c=16)
+OnMidiReceiveTimeCodeQuarterFrame: 10
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 2E 0 2B 1A AB 3A D2 6C 81 2 F1 20 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 2E 0 2B 1A AB 3A D2 6C 81 2 F1 20 
+> TimeCodeQuarterFrame (c=32)
+OnMidiReceiveTimeCodeQuarterFrame: 20
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 30 0 2B 1B 47 3A D2 6C 81 2 F1 40 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 30 0 2B 1B 47 3A D2 6C 81 2 F1 40 
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 33 0 2B 1C 44 3A D2 6C 81 2 F1 76 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 33 0 2B 1C 44 3A D2 6C 81 2 F1 76 
+> TimeCodeQuarterFrame (c=118)
+OnMidiReceiveTimeCodeQuarterFrame: 76
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 34 0 2B 1C 94 3A D2 6C 81 2 F1 C 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 34 0 2B 1C 94 3A D2 6C 81 2 F1 C 
+> TimeCodeQuarterFrame (c=12)
+OnMidiReceiveTimeCodeQuarterFrame: 0c
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 36 0 2B 1D 3E 3A D2 6C 81 2 F1 20 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 36 0 2B 1D 3E 3A D2 6C 81 2 F1 20 
+> TimeCodeQuarterFrame (c=32)
+OnMidiReceiveTimeCodeQuarterFrame: 20
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 38 0 2B 1D E2 3A D2 6C 81 2 F1 40 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 38 0 2B 1D E2 3A D2 6C 81 2 F1 40 
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 3A 0 2B 1E 8C 3A D2 6C 81 2 F1 60 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 3A 0 2B 1E 8C 3A D2 6C 81 2 F1 60 
+> TimeCodeQuarterFrame (c=96)
+OnMidiReceiveTimeCodeQuarterFrame: 60
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 3B 0 2B 1E DC 3A D2 6C 81 2 F1 76 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 3B 0 2B 1E DC 3A D2 6C 81 2 F1 76 
+> TimeCodeQuarterFrame (c=118)
+OnMidiReceiveTimeCodeQuarterFrame: 76
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 3D 0 2B 1F 81 3A D2 6C 81 2 F1 10 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 3D 0 2B 1F 81 3A D2 6C 81 2 F1 10 
+> TimeCodeQuarterFrame (c=16)
+OnMidiReceiveTimeCodeQuarterFrame: 10
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 40 0 2B 20 7C 3A D2 6C 81 2 F1 40 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 40 0 2B 20 7C 3A D2 6C 81 2 F1 40 
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 41 0 2B 20 D6 3A D2 6C 81 2 F1 50 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 41 0 2B 20 D6 3A D2 6C 81 2 F1 50 
+> TimeCodeQuarterFrame (c=80)
+OnMidiReceiveTimeCodeQuarterFrame: 50
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 43 0 2B 21 79 3A D2 6C 81 2 F1 76 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 43 0 2B 21 79 3A D2 6C 81 2 F1 76 
+> TimeCodeQuarterFrame (c=118)
+OnMidiReceiveTimeCodeQuarterFrame: 76
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 44 0 2B 21 C9 3A D2 6C 81 2 F1 0 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 44 0 2B 21 C9 3A D2 6C 81 2 F1 0 
+> TimeCodeQuarterFrame (c=0)
+OnMidiReceiveTimeCodeQuarterFrame: 00
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 46 0 2B 22 71 3A D2 6C 81 2 F1 20 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 46 0 2B 22 71 3A D2 6C 81 2 F1 20 
+> TimeCodeQuarterFrame (c=32)
+OnMidiReceiveTimeCodeQuarterFrame: 20
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 48 0 2B 23 1B 3A D2 6C 81 2 F1 40 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 48 0 2B 23 1B 3A D2 6C 81 2 F1 40 
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 4A 0 2B 23 C0 3A D2 6C 81 2 F1 60 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 4A 0 2B 23 C0 3A D2 6C 81 2 F1 60 
+> TimeCodeQuarterFrame (c=96)
+OnMidiReceiveTimeCodeQuarterFrame: 60
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 4C 0 2B 24 6E 3A D2 6C 81 2 F1 2 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 4C 0 2B 24 6E 3A D2 6C 81 2 F1 2 
+> TimeCodeQuarterFrame (c=2)
+OnMidiReceiveTimeCodeQuarterFrame: 02
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 4D 0 2B 24 BE 3A D2 6C 81 2 F1 11 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 4D 0 2B 24 BE 3A D2 6C 81 2 F1 11 
+> TimeCodeQuarterFrame (c=17)
+OnMidiReceiveTimeCodeQuarterFrame: 11
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 4F 0 2B 25 62 3A D2 6C 81 2 F1 30 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 4F 0 2B 25 62 3A D2 6C 81 2 F1 30 
+> TimeCodeQuarterFrame (c=48)
+OnMidiReceiveTimeCodeQuarterFrame: 30
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 51 0 2B 26 8 3A D2 6C 81 2 F1 50 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 51 0 2B 26 8 3A D2 6C 81 2 F1 50 
+> TimeCodeQuarterFrame (c=80)
+OnMidiReceiveTimeCodeQuarterFrame: 50
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 54 0 2B 27 2 3A D2 6C 81 2 F1 4 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 54 0 2B 27 2 3A D2 6C 81 2 F1 4 
+> TimeCodeQuarterFrame (c=4)
+OnMidiReceiveTimeCodeQuarterFrame: 04
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 55 0 2B 27 55 3A D2 6C 81 2 F1 11 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 55 0 2B 27 55 3A D2 6C 81 2 F1 11 
+> TimeCodeQuarterFrame (c=17)
+OnMidiReceiveTimeCodeQuarterFrame: 11
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 57 0 2B 27 FA 3A D2 6C 81 2 F1 30 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 57 0 2B 27 FA 3A D2 6C 81 2 F1 30 
+> TimeCodeQuarterFrame (c=48)
+OnMidiReceiveTimeCodeQuarterFrame: 30
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 59 0 2B 28 A4 3A D2 6C 81 2 F1 50 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 59 0 2B 28 A4 3A D2 6C 81 2 F1 50 
+> TimeCodeQuarterFrame (c=80)
+OnMidiReceiveTimeCodeQuarterFrame: 50
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 5A 0 2B 28 F9 3A D2 6C 81 2 F1 60 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 5A 0 2B 28 F9 3A D2 6C 81 2 F1 60 
+> TimeCodeQuarterFrame (c=96)
+OnMidiReceiveTimeCodeQuarterFrame: 60
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 5C 0 2B 29 9E 3A D2 6C 81 2 F1 6 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 5C 0 2B 29 9E 3A D2 6C 81 2 F1 6 
+> TimeCodeQuarterFrame (c=6)
+OnMidiReceiveTimeCodeQuarterFrame: 06
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 5E 0 2B 2A 49 3A D2 6C 81 2 F1 20 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 5E 0 2B 2A 49 3A D2 6C 81 2 F1 20 
+> TimeCodeQuarterFrame (c=32)
+OnMidiReceiveTimeCodeQuarterFrame: 20
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 60 0 2B 2A EB 3A D2 6C 81 2 F1 40 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 60 0 2B 2A EB 3A D2 6C 81 2 F1 40 
+> TimeCodeQuarterFrame (c=64)
+OnMidiReceiveTimeCodeQuarterFrame: 40
+Purging left 15 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 15 bytes. These will be appended to the protocolBuffer
+80 61 2 62 0 2B 2B 90 3A D2 6C 81 2 F1 60 
+Protocol buffer contains 15 bytes. Content:
+80 61 2 62 0 2B 2B 90 3A D2 6C 81 2 F1 60 
+> TimeCodeQuarterFrame (c=96)
