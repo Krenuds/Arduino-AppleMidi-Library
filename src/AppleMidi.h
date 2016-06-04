@@ -57,7 +57,7 @@ public:
 	virtual void OnSongPosition(void* sender, int) = 0;
 	virtual void OnTuneRequest(void* sender) = 0;
 
-	virtual void OnSystemExclusive(void* sender, unsigned char*, unsigned int) = 0;
+	virtual void OnSystemExclusive(void* sender, byte *, unsigned int) = 0;
 };
 
 class IAppleMidi : public IRtpMidi
@@ -166,7 +166,7 @@ public:
 	inline void OnSongPosition(void* sender, int);
 	inline void OnTuneRequest(void* sender);
 
-	inline void OnSystemExclusive(void* sender, unsigned char*, unsigned int);
+	inline void OnSystemExclusive(void* sender, byte *, unsigned int);
 
 private:
 	inline void write(UdpClass&, AppleMIDI_InvitationRejected&, IPAddress ip, uint16_t port);
@@ -295,7 +295,7 @@ private:
     void (*mTuneRequestCallback)(void);
     void (*mTimeCodeQuarterFrameCallback)(byte data);
 
-    void (*mSystemExclusiveCallback)(unsigned char* array, unsigned int size);
+    void (*mSystemExclusiveCallback)( byte * array, unsigned int size);
     void (*mClockCallback)(void);
     void (*mStartCallback)(void);
     void (*mContinueCallback)(void);
