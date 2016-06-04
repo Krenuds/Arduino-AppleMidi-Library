@@ -943,7 +943,7 @@ void AppleMidi_Class<UdpClass>::OnTuneRequest(void* sender)
 
 
 template<class UdpClass>
-void AppleMidi_Class<UdpClass>::OnSystemExclusive(void* sender, unsigned char* buffer, DataByte value)
+void AppleMidi_Class<UdpClass>::OnSystemExclusive(void* sender, unsigned char* buffer, unsigned int value)
 {
 #if (APPLEMIDI_DEBUG)
 	Serial.print("> System Exclusive ()");
@@ -2151,7 +2151,7 @@ template<class UdpClass> inline void AppleMidi_Class<UdpClass>::OnReceiveControl
 template<class UdpClass> inline void AppleMidi_Class<UdpClass>::OnReceiveProgramChange(void(*fptr)(byte channel, byte number))                 { mProgramChangeCallback = fptr; }
 template<class UdpClass> inline void AppleMidi_Class<UdpClass>::OnReceiveAfterTouchChannel(void(*fptr)(byte channel, byte pressure))           { mAfterTouchChannelCallback = fptr; }
 template<class UdpClass> inline void AppleMidi_Class<UdpClass>::OnReceivePitchBend(void(*fptr)(byte channel, int bend))                        { mPitchBendCallback = fptr; }
-template<class UdpClass> inline void AppleMidi_Class<UdpClass>::OnReceiveSystemExclusive(void(*fptr)(byte* array, byte size))                  { mSystemExclusiveCallback = fptr; }
+template<class UdpClass> inline void AppleMidi_Class<UdpClass>::OnReceiveSystemExclusive(void(*fptr)(unsigned char* array, unsigned int size)) { mSystemExclusiveCallback = fptr; }
 template<class UdpClass> inline void AppleMidi_Class<UdpClass>::OnReceiveTimeCodeQuarterFrame(void(*fptr)(byte data))                          { mTimeCodeQuarterFrameCallback = fptr; }
 template<class UdpClass> inline void AppleMidi_Class<UdpClass>::OnReceiveSongPosition(void(*fptr)(unsigned int beats))                         { mSongPositionCallback = fptr; }
 template<class UdpClass> inline void AppleMidi_Class<UdpClass>::OnReceiveSongSelect(void(*fptr)(byte songnumber))                              { mSongSelectCallback = fptr; }

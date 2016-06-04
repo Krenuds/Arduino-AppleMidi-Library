@@ -57,7 +57,7 @@ public:
 	virtual void OnSongPosition(void* sender, int) = 0;
 	virtual void OnTuneRequest(void* sender) = 0;
 
-	virtual void OnSystemExclusive(void* sender, unsigned char*, DataByte) = 0;
+	virtual void OnSystemExclusive(void* sender, unsigned char*, unsigned int) = 0;
 };
 
 class IAppleMidi : public IRtpMidi
@@ -166,7 +166,7 @@ public:
 	inline void OnSongPosition(void* sender, int);
 	inline void OnTuneRequest(void* sender);
 
-	inline void OnSystemExclusive(void* sender, unsigned char*, DataByte);
+	inline void OnSystemExclusive(void* sender, unsigned char*, unsigned int);
 
 private:
 	inline void write(UdpClass&, AppleMIDI_InvitationRejected&, IPAddress ip, uint16_t port);
@@ -264,7 +264,7 @@ public:
     inline void OnReceiveProgramChange(void (*fptr)(byte channel, byte number));
     inline void OnReceiveAfterTouchChannel(void (*fptr)(byte channel, byte pressure));
     inline void OnReceivePitchBend(void (*fptr)(byte channel, int bend));
-    inline void OnReceiveSystemExclusive(void (*fptr)(byte * array, byte size));
+    inline void OnReceiveSystemExclusive(void (*fptr)(unsigned char * array, unsigned int size));
     inline void OnReceiveTimeCodeQuarterFrame(void (*fptr)(byte data));
     inline void OnReceiveSongPosition(void (*fptr)(unsigned int beats));
     inline void OnReceiveSongSelect(void (*fptr)(byte songnumber));
@@ -295,7 +295,7 @@ private:
     void (*mTuneRequestCallback)(void);
     void (*mTimeCodeQuarterFrameCallback)(byte data);
 
-    void (*mSystemExclusiveCallback)(byte * array, byte size);
+    void (*mSystemExclusiveCallback)(unsigned char* array, unsigned int size);
     void (*mClockCallback)(void);
     void (*mStartCallback)(void);
     void (*mContinueCallback)(void);
