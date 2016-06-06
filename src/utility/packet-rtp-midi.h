@@ -1218,6 +1218,7 @@ public:
 		*/
 
 		/* if we have a journal-section -> dissect it */
+		#if 0
 		if ( flags & RTP_MIDI_CS_FLAG_J ) {
 			#ifdef APPLEMIDI_DEBUG_VERBOSE
 			Serial.println("journal section");
@@ -1281,7 +1282,7 @@ public:
 				}
 			}
 		}
-
+		#endif
 		return offset;
 	}
 
