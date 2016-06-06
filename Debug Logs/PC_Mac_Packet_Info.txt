@@ -1,0 +1,9 @@
+PC MTC Packet - Malformed (but working) ----
+
+0000   5c cf 7f 88 b6 62 20 10 7a 31 d8 97 08 00 45 00  \....b .z1....E.
+0010   00 2b 63 6c 00 00 80 11 53 fa c0 a8 01 09 c0 a8  .+cl....S.......
+0020   01 02 13 8d 13 8d 00 17 de 46 80 61 01 b3 00 0d  .........F.a....
+0030   c0 49 d9 57 28 4f 02 f1 30                       .I.W(O..0
+
+OSX 10.11.3 MTC Packet - Qualified (produces packetBuffer overflow) ----
+
