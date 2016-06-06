@@ -20,3 +20,293 @@ Or pushing too fast? I don’t get it.
 0070   53 f1 30 40 24 df 08 0b 63 60 00 01 0a c0 10 00  S.0@$...c`......
 0080   00                                               .
 
+Arduino serial data for OSX MTC --------
+
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B DD 39 1A 6F 1 89 FE 3F 98 3 FF 3F 0 0 0 0 0 0 0 0 1 6 39 CE 0 0 0 0 0 0 0 0 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B DD 39 1A 6F 1 89 FE 3F 98 3 FF 3F 0 0 0 0 0 0 0 0 1 6 39 CE 0 0 0 0 0 0 0 0 
+dissect_rtp_midi 5005, packetSize is 36
+start: dissect_rtp
+current: 3
+unsupported version 3
+Unprocessed packet (No valid rtp midi content).
+dissect_apple_midi 5005, packetSize is 36
+> Syncronization for ssrc 0xDD391A6F, count = 1
+< Syncronization for ssrc 0xA8FB1613, count = 2
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 83 bytes. These will be appended to the protocolBuffer
+80 61 25 6A 1 6 BF 23 DD 39 1A 6F C0 3B F1 2 54 F1 10 53 F1 20 53 F1 30 54 F1 40 53 F1 50 53 F1 60 54 F1 76 53 F1 4 53 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 6 53 F1 10 53 F1 20 54 F1 30 C0 25 33 88 7 C7 20 0 4 7 
+Protocol buffer contains 83 bytes. Content:
+80 61 25 6A 1 6 BF 23 DD 39 1A 6F C0 3B F1 2 54 F1 10 53 F1 20 53 F1 30 54 F1 40 53 F1 50 53 F1 60 54 F1 76 53 F1 4 53 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 6 53 F1 10 53 F1 20 54 F1 30 C0 25 33 88 7 C7 20 0 4 7 
+dissect_rtp_midi 5005, packetSize is 83
+start: dissect_rtp
+current: 0
+Seq Number: 256A
+Timestamp : 106BF23
+Sync Src  : DD391A6F
+We have all the data
+payload_type is 97
+No padding set
+end: dissect_rtp, offset = 12
+cmd_len is 0
+dissect command section with packet size 83
+cmd count is 0
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=2)
+cmd count is 1
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=16)
+cmd count is 2
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=32)
+cmd count is 3
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=48)
+cmd count is 4
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=64)
+cmd count is 5
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=80)
+cmd count is 6
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=96)
+cmd count is 7
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=118)
+cmd count is 8
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=4)
+cmd count is 9
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=16)
+cmd count is 10
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=32)
+cmd count is 11
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=48)
+cmd count is 12
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=64)
+cmd count is 13
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=80)
+cmd count is 14
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=96)
+cmd count is 15
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=118)
+cmd count is 16
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=6)
+cmd count is 17
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=16)
+cmd count is 18
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=32)
+cmd count is 19
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=48)
+journal section
+decode_system_journal
+ReportedBoundsError 3Purging left 76 bytes. New _protocolBufferIndex: 7
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 25 6B 1 6 C5 A6 DD 39 1A 6F C0 11 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 8 53 F1 10 40 25 33 8 B 63 60 0 0 4 60 0 0 0 
+Protocol buffer contains 52 bytes. Content:
+88 7 C7 20 0 4 7 80 61 25 6B 1 6 C5 A6 DD 39 1A 6F C0 11 F1 40 54 F1 50 53 F1 60 53 F1 76 54 F1 8 53 F1 10 40 25 33 8 B 63 60 0 0 4 60 0 0 0 
+dissect_rtp_midi 5005, packetSize is 52
+start: dissect_rtp
+current: 1
+Seq Number: C720
+Timestamp : 40780
+Sync Src  : 61256B01
+We have all the data
+csrc_count = 8
+No padding set
+end: dissect_rtp, offset = 44
+cmd_len is 0
+journal section
+Purging left 48 bytes. New _protocolBufferIndex: 4
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 25 6C 1 6 C7 9A DD 39 1A 6F C0 11 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 40 25 33 8 B 61 60 0 0 6 80 0 0 0 
+Protocol buffer contains 49 bytes. Content:
+60 0 0 0 80 61 25 6C 1 6 C7 9A DD 39 1A 6F C0 11 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 40 25 33 8 B 61 60 0 0 6 80 0 0 0 
+dissect_rtp_midi 5005, packetSize is 49
+start: dissect_rtp
+current: 2
+unsupported version 1
+Unprocessed packet (No valid rtp midi content).
+dissect_apple_midi 5005, packetSize is 49
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 47
+Incoming buffer of 41 bytes. These will be appended to the protocolBuffer
+80 61 25 6D 1 6 C9 8D DD 39 1A 6F C0 11 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 40 25 33 8 7 47 60 0 0 8 
+Protocol buffer contains 88 bytes. Content:
+0 0 80 61 25 6C 1 6 C7 9A DD 39 1A 6F C0 11 F1 20 53 F1 30 53 F1 40 54 F1 50 53 F1 60 53 F1 76 40 25 33 8 B 61 60 0 0 6 80 0 0 0 80 61 25 6D 1 6 C9 8D DD 39 1A 6F C0 11 F1 A 53 F1 10 54 F1 20 53 F1 30 53 F1 40 54 F1 50 40 25 33 8 7 47 60 0 0 8 
+dissect_rtp_midi 5005, packetSize is 88
+start: dissect_rtp
+current: 3
+unsupported version 0
+Unprocessed packet (No valid rtp midi content).
+dissect_apple_midi 5005, packetSize is 88
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 86
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 25 6E 1 6 CB 80 DD 39 1A 6F C0 11 F1 60 54 F1 76 53 F1 C 53 F1 10 54 F1 20 53 F1 30 40 25 33 8 B 65 60 0 0 8 A0 0 0 0 
+Not enough memory in protocolBuffer, clearing existing parser buffer.
+reset
+Protocol buffer contains 45 bytes. Content:
+80 61 25 6E 1 6 CB 80 DD 39 1A 6F C0 11 F1 60 54 F1 76 53 F1 C 53 F1 10 54 F1 20 53 F1 30 40 25 33 8 B 65 60 0 0 8 A0 0 0 0 
+dissect_rtp_midi 5005, packetSize is 45
+start: dissect_rtp
+current: 0
+Seq Number: 256E
+Timestamp : 106CB80
+Sync Src  : DD391A6F
+We have all the data
+payload_type is 97
+No padding set
+end: dissect_rtp, offset = 12
+cmd_len is 0
+dissect command section with packet size 45
+cmd count is 0
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=96)
+cmd count is 1
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=118)
+cmd count is 2
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=12)
+cmd count is 3
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=16)
+cmd count is 4
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=32)
+cmd count is 5
+decodetime
+decodemidi
+decode_mtc_quarter_frame
+> TimeCodeQuarterFrame (c=48)
+journal section
+decode_system_journal
+ReportedBoundsError 3Purging left 34 bytes. New _protocolBufferIndex: 11
+Incoming buffer of 41 bytes. These will be appended to the protocolBuffer
+80 61 25 71 1 6 D1 5C DD 39 1A 6F C0 11 F1 0 53 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 40 25 33 8 7 47 60 0 0 E 
+Protocol buffer contains 52 bytes. Content:
+8 B 65 60 0 0 8 A0 0 0 0 80 61 25 71 1 6 D1 5C DD 39 1A 6F C0 11 F1 0 53 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 40 25 33 8 7 47 60 0 0 E 
+dissect_rtp_midi 5005, packetSize is 52
+start: dissect_rtp
+current: 1
+unsupported version 0
+Unprocessed packet (No valid rtp midi content).
+dissect_apple_midi 5005, packetSize is 52
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 50
+Incoming buffer of 45 bytes. These will be appended to the protocolBuffer
+80 61 25 77 1 6 DD 15 DD 39 1A 6F C0 11 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 A 54 F1 11 40 25 33 8 B 63 60 0 0 16 81 0 0 0 
+Protocol buffer contains 95 bytes. Content:
+65 60 0 0 8 A0 0 0 0 80 61 25 71 1 6 D1 5C DD 39 1A 6F C0 11 F1 0 53 F1 11 54 F1 20 53 F1 30 53 F1 40 54 F1 50 40 25 33 8 7 47 60 0 0 E 80 61 25 77 1 6 DD 15 DD 39 1A 6F C0 11 F1 40 53 F1 50 54 F1 60 53 F1 76 53 F1 A 54 F1 11 40 25 33 8 B 63 60 0 0 16 81 0 0 0 
+dissect_rtp_midi 5005, packetSize is 95
+start: dissect_rtp
+current: 2
+unsupported version 1
+Unprocessed packet (No valid rtp midi content).
+dissect_apple_midi 5005, packetSize is 95
+Signature not supported.
+Purging left 2 bytes. New _protocolBufferIndex: 93
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B DD 39 1A 6F 0 FF FF FF 0 0 0 0 1 7 C7 E3 FF B3 3 0 0 9E 65 56 FF 7F 0 0 75 91 D 95 
+Not enough memory in protocolBuffer, clearing existing parser buffer.
+reset
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B DD 39 1A 6F 0 FF FF FF 0 0 0 0 1 7 C7 E3 FF B3 3 0 0 9E 65 56 FF 7F 0 0 75 91 D 95 
+dissect_rtp_midi 5005, packetSize is 36
+start: dissect_rtp
+current: 3
+unsupported version 3
+Unprocessed packet (No valid rtp midi content).
+dissect_apple_midi 5005, packetSize is 36
+> Syncronization for ssrc 0xDD391A6F, count = 0
+< Syncronization for ssrc 0xA8FB1613, count = 1
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B DD 39 1A 6F 2 89 FE 3F 98 3 FF 3F 0 0 0 0 1 7 C7 E3 0 0 0 0 0 0 0 0 1 7 CB 34 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B DD 39 1A 6F 2 89 FE 3F 98 3 FF 3F 0 0 0 0 1 7 C7 E3 0 0 0 0 0 0 0 0 1 7 CB 34 
+dissect_rtp_midi 5005, packetSize is 36
+start: dissect_rtp
+current: 0
+unsupported version 3
+Unprocessed packet (No valid rtp midi content).
+dissect_apple_midi 5005, packetSize is 36
+> Syncronization for ssrc 0xDD391A6F, count = 2
+< Syncronization for ssrc 0xA8FB1613, count = 0
+Purging left 36 bytes. New _protocolBufferIndex: 0
+Incoming buffer of 36 bytes. These will be appended to the protocolBuffer
+FF FF 43 4B DD 39 1A 6F 1 89 FE 3F 98 3 FF 3F 0 0 0 0 0 0 0 0 1 7 CD 51 0 0 0 0 0 0 0 0 
+Protocol buffer contains 36 bytes. Content:
+FF FF 43 4B DD 39 1A 6F 1 89 FE 3F 98 3 FF 3F 0 0 0 0 0 0 0 0 1 7 CD 51 0 0 0 0 0 0 0 0 
+dissect_rtp_midi 5005, packetSize is 36
+start: dissect_rtp
+current: 1
+unsupported version 3
+Unprocessed packet (No valid rtp midi content).
+dissect_apple_midi 5005, packetSize is 36
+> Syncronization for ssrc 0xDD391A6F, count = 1
+< Syncronization for ssrc 0xA8FB1613, count = 2
+Purging left 36 bytes. New _protocolBufferIndex: 0
